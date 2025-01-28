@@ -6,11 +6,7 @@ public class Account {
 	private double balance; 
 	private String name; 
 	
-	public Account(double balance) { 
-
-		this("Unknown", balance); 
-
-		} 
+	
 	public Account(String name, double balance) {  //new comment for balance
 
 		this.name = name; 
