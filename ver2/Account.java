@@ -2,14 +2,11 @@ package ver2;
 
 public class Account { 
 
+	 //new comment for balance
 	private double balance; 
 	private String name; 
 	
-	public Account(double balance) { 
-
-		this("Unknown", balance); 
-
-		} 
+	
 	public Account(String name, double balance) {  //new comment for balance
 
 		this.name = name; 
